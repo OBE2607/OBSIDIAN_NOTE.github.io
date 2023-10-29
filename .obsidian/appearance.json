@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "cssTheme": "GitHubDHC",
+  "baseFontSize": 19,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "TIMELINES",
+    "dashboard",
+    "supercharged-links-gen"
+  ],
+  "nativeMenus": false,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "Arial Narrow",
+  "baseFontSizeAction": true
+}

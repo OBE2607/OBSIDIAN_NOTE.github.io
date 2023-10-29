@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"text","text":"\n\n\n","id":"4e7cb4c4c6dd88de","x":-360,"y":40,"width":700,"height":520,"color":"4"},
+		{"type":"file","file":"0000TEST/HD-wallpaper-ios-11-earth-ios11-apple-earth-iphone-8-iphone-x-iphone.jpg","id":"af173c40b45b636b","x":560,"y":74,"width":804,"height":452},
+		{"type":"file","file":"0000TEST/0002TEST.md","id":"577a752aa0adc38b","x":-1080,"y":40,"width":400,"height":400},
+		{"type":"text","text":"Projet\n[[0001Kanban]]","id":"a8722980e173db62","x":-135,"y":-600,"width":250,"height":170,"color":"5"}
+	],
+	"edges":[
+		{"id":"b2e9a682112c6e78","fromNode":"a8722980e173db62","fromSide":"bottom","toNode":"4e7cb4c4c6dd88de","toSide":"top","color":"4"},
+		{"id":"31544f7f84f8d302","fromNode":"4e7cb4c4c6dd88de","fromSide":"right","toNode":"af173c40b45b636b","toSide":"left"},
+		{"id":"7aaebbf35a4aa6b4","fromNode":"a8722980e173db62","fromSide":"right","toNode":"af173c40b45b636b","toSide":"top"},
+		{"id":"787ac6cd96aec3db","fromNode":"4e7cb4c4c6dd88de","fromSide":"left","toNode":"577a752aa0adc38b","toSide":"right"}
+	]
+}

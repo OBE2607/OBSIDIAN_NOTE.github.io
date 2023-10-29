@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "77254ec04ffcf48c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf3e1b501a392941",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0e06c01e51e2d3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Le commencement.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8500bdfe341a164",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ad88a83f3e98669",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a131afe0ba1c1d0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "871de62d2053843e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e7be4a8ca857a990",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "413e2eee0857536b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "f76b2ec8cbab2c7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d616292f7b74bd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98aa3e2760b90036",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Le commencement.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "40ddddbd8ee49235",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Le commencement.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "16811073c431d9d8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "35b375895037bf47",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Le commencement.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "640f4b169226724a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f871f0f21f20b01",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Le commencement.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.8,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6024013357398963,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "workspaces:Gérer les espaces de travail": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true
+    }
+  },
+  "active": "f0e06c01e51e2d3c",
+  "lastOpenFiles": [
+    "Le commencement.md",
+    "Formation/Les notes autres/Tout le monde dispose des outils et qualités pour améliorer sa productivité -.md",
+    "Formation/Les notes autres/Prendre des notes pour faire une clé de bras aux programmes qui tournent en continu dans ton esprit.md",
+    "Formation/Les notes autres/Prendre des notes m'a permis de canaliser toutes les idées que j'avais en tête.md",
+    "Formation/Les notes autres/Pourquoi on ne devrait pas avoir honte d'utiliser une mémoire externe à notre cerveau.md",
+    "Formation/Les notes autres/Pour arriver à prendre de nouvelles habitudes  le mieux est de commencer en étant modeste.md",
+    "Formation/Les notes autres/La spirale positive d'un système de prise de notes efficace.md",
+    "Formation/Les notes autres/La simplicité est essentielle pour mettre en place un système de prise de notes.md",
+    "Formation/Les notes autres/Excercice pour aborder la formation de manière efficace.md",
+    "Formation/Les notes autres/Au fond, pourquoi t'embêter à prendre des notes.md",
+    "Formation/Les modules de formation/9 - Mes 7conseils pour bien organiser tes notes.md",
+    "Formation/Les modules de formation/8 - Les principales astuces pour importer des fichiers et liens externes.md",
+    "Formation/Les modules de formation/7 - On va plus loin avec la mise en forme de tes notes.md",
+    "Formation/Les modules de formation/6 - Les plugins utiles au lancement et comment trouver les plus adaptés à ton utilisation.md",
+    "Formation/Les modules de formation/5 - Comment t'amuser avec la vue graphique.md",
+    "Formation/Les modules de formation/4 - Comment créer des liens entre tes notes, utiliser les tags et quelles utilisations concrètes.md",
+    "Formation/Les modules de formation/3 - Comment créer tes premières notes, tes dossiers et commencer à jouer avec l'interface.md",
+    "Formation/Les modules de formation/2 - Tour d'horizon de l'interface et de ce qu'il faut connaître.md",
+    "Formation/Les modules de formation/1 - Paramétrer le logiciel Obsidian pour bien débuter.md"
+  ]
+}

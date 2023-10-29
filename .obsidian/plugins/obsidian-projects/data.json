@@ -1,0 +1,381 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Projects - Demo Project",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 360
+              },
+              "path": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Table",
+          "id": "e83dc644-1635-4f46-8e12-7f12de324203",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "priorityField": "weight"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Board",
+          "id": "e670cc97-8c58-4ccd-b0a9-ff9862c109e6",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Calendar",
+          "id": "856b5261-3e73-4c50-9e9a-7e947d0a5f92",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Gallery",
+          "id": "df1ee0c2-b8ec-4f66-8d35-a6a262393d26",
+          "type": "gallery"
+        }
+      ],
+      "name": "Demo project",
+      "id": "377790d2-66ce-423f-b094-e3c6a74b899a",
+      "path": "Projects - Demo Project"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "Prénom nom",
+      "templates": [
+        "004modèle/Model_ANNUAIRE.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "001PROJET/ANNUAIRE",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "Prénom",
+              "nom",
+              "Email",
+              "Entreprise",
+              "Projet",
+              "Localisation",
+              "tags",
+              "Téléphone fixe",
+              "Téléphone portable"
+            ],
+            "fieldConfig": {
+              "E_mail": {
+                "width": 243
+              },
+              "cover": {
+                "hide": false
+              },
+              "image": {
+                "hide": true
+              },
+              "path": {
+                "hide": true,
+                "width": 116
+              },
+              "name": {
+                "hide": false
+              },
+              "Type": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2b00ff",
+                "condition": {
+                  "field": "Projet",
+                  "operator": "is-not-empty",
+                  "enabled": true,
+                  "value": ""
+                }
+              },
+              {
+                "color": "#ff0000",
+                "condition": {
+                  "field": "Projet",
+                  "operator": "is-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1e97809b-83c0-4b89-939b-60cdc8f70d47",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "cover",
+            "includeFields": [
+              "Entreprise",
+              "Email",
+              "Téléphone fixe",
+              "Téléphone portable"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "Entreprise",
+                "operator": "is",
+                "enabled": false,
+                "value": "SPAHELEC"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a2e64098-99f0-4437-942f-2db895d5dc73",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "1d0a492b-f985-4827-994f-965a717e4adb",
+      "name": "ANNUAIRE"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "NOM_DU_PROJET",
+      "templates": [
+        "004modèle/Model_PROJET.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "001PROJET/001INSTALLATION",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "adresse",
+              "cover",
+              "date",
+              "deadline",
+              "due",
+              "entreprise annexe",
+              "entreprise siège",
+              "ID2SON",
+              "image",
+              "installation",
+              "matériel",
+              "multisite",
+              "Nbrs",
+              "Type_operateur",
+              "Nbrs_Truk",
+              "NbrsTrunk",
+              "Operateur",
+              "projet",
+              "published",
+              "tags",
+              "Tech_ref"
+            ],
+            "fieldConfig": {
+              "banner_lock": {
+                "hide": true
+              },
+              "banner_icon": {
+                "hide": true
+              },
+              "banner": {
+                "hide": true
+              },
+              "banner_y": {
+                "hide": true
+              },
+              "tags": {
+                "width": 148
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2d728e83-411e-4a3b-965c-62cd454dd590",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "05eb1d16-25fe-4c72-b3a3-d731b04ecd4d",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "checkField": "installation",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b5e389a7-9fa8-44b1-a3db-e724ab3468ca",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d8b7dbd5-e790-4b63-b613-c1ec8b29604a",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "10b8ccd2-f075-4ec2-a775-6d23b16d462c",
+      "name": "INSTALLATION"
+    }
+  ],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "8d67097c-140b-49ef-9fa4-7d9a01aff1bd"
+      },
+      {
+        "project": "15cfd1c9-fc0d-47ed-a188-9be1e958aecd"
+      },
+      {
+        "project": "15cfd1c9-fc0d-47ed-a188-9be1e958aecd",
+        "view": "37c24c9f-1e28-4162-b1a9-472e59514f02"
+      },
+      {
+        "project": "15cfd1c9-fc0d-47ed-a188-9be1e958aecd",
+        "view": "0a869165-33e4-4e7f-ad2f-4614b50ba5d6"
+      },
+      {
+        "project": "15cfd1c9-fc0d-47ed-a188-9be1e958aecd",
+        "view": "073f4293-fde9-42ac-9956-a92595df562c"
+      },
+      {
+        "project": "15cfd1c9-fc0d-47ed-a188-9be1e958aecd",
+        "view": "485c9721-1147-4181-98af-31071370c556"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}
