@@ -45,9 +45,15 @@ color purple
 
 # ONSIDIAN_NOTE
 
-## Lien
+## Compte Lien
+
+#### OBE2607/OBSIDIAN_NOTE
 https://github.com/OBE2607/OBSIDIAN_NOTE.git
 git@github.com:OBE2607/OBSIDIAN_NOTE.git
+
+#### OBE2607/OBSIDIAN_NOTE.github.io
+https://github.com/OBE2607/OBSIDIAN_NOTE.github.io.git
+git@github.com:OBE2607/OBSIDIAN_NOTE.github.io.git
 
 ***
 
