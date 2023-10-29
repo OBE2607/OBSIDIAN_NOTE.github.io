@@ -1,1 +1,0 @@
-# 01 - NOTE OBSIDIAN

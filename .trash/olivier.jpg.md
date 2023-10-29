@@ -1,3 +1,0 @@
-# olivier.jpg
-
-![[olivier.png]]

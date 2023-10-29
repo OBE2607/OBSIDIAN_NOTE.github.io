@@ -1,5 +1,0 @@
-# obsidianfrance
-
-
-# https://obsidianfrance.fr/
-

@@ -1,6 +1,0 @@
----
-cssclass: dashboard
----
-# Home
-
-,jnjkm
